@@ -14,8 +14,8 @@ let doubledNumbers = numbers.map((x) => x * 2);
 console.log(doubledNumbers); // Gibt [2, 4, 6, 8, 10] aus
 
 // Schritt 2
-let words = ['Apfel', 'Banane', 'Kirsche', 'Erdbeere', 'Mango'];
-let longerWords = words.filter((word) => word.length > 5);
+const words = ['Apfel', 'Banane', 'Kirsche', 'Erdbeere', 'Mango'];
+const longerWords = words.filter((element) => element.length > 5);
 console.log(longerWords); // Gibt ['Banane', 'Kirsche', 'Erdbeere'] aus
 
 
