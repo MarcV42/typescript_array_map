@@ -21,7 +21,7 @@ console.log(longerWords); // Gibt ['Banane', 'Kirsche', 'Erdbeere'] aus
 
 // Schritt 3
 // const numbers = [1, 2, 3, 4, 5];
-let sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+let sum = numbers.reduce((previousValue, currentValue) => previousValue + currentValue, 0);
 console.log(sum); // Gibt 15 aus
 
 
